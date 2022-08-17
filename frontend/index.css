@@ -1,0 +1,88 @@
+body {
+  background-image: url(undraw_game_world_re_e44j.svg);
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: 90% -0.4%;
+}
+
+.navigat {
+
+  display: grid;
+  width: 100%;
+  grid-template-columns: 50% 50%;
+}
+
+.logo img {
+  width: 20%;
+  height: 70%
+}
+
+.parent1 {
+  margin-top: 5%;
+  display: grid;
+
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.parent1 a {
+  text-decoration: none;
+  color: black;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+a:hover {
+  background-color: rgb(92, 38, 238);
+  color: white;
+}
+
+.design {
+  background-size: 500px;
+  display: grid;
+  width: 50%;
+  grid-template-rows: 1fr 3fr 3fr;
+  padding: 50px;
+  margin-top: 8%;
+
+
+}
+
+.div1 {
+  color: blue;
+  text-align: center;
+
+  font-size: xx-large;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.div2 {
+  background-color: white;
+  padding-bottom: 5%;
+ 
+  text-align: justify;
+  margin-bottom: 10px;
+
+}
+
+.div3 a {
+  text-decoration: none;
+  color: white;
+  padding:6px;
+  background-color: blueviolet;
+  border-radius: 20px;
+  width: 50%;
+  text-align: center;
+  
+}
+.div3{
+  text-align: center;
+}
+
+.div3 a::after {
+  color: orangered
+}
+.link5 a {text-decoration: none;
+padding: 6px;
+border-radius: 20px;
+background-color: blueviolet;
+color:white}
