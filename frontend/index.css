@@ -3,7 +3,9 @@ body {
   background-repeat: no-repeat;
   background-size: 50%;
   background-position: 90% -0.4%;
+  min-height: 100vh;
   margin: 0%;
+  
 
 }
 
@@ -11,6 +13,7 @@ body {
 
   display: grid;
   width: 100%;
+  height: 55px;
   grid-template-columns: 50% 50%;
   position: fixed;
   top: 0%;
@@ -18,42 +21,45 @@ body {
   background-color: rgb(156, 124, 230);
   align-items: center;
   padding: 0%;
-
+z-index: 1;
 
 }
 
+.main {min-height: 100vh;
+  padding-top:55px ;
+}
 .logo img {
   width: 8%;
   height: 8%;
 
 }
 
-.parent1 {
+.parent {
 
   display: grid;
 
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
-.parent1 a {
+.parent a {
   text-decoration: none;
   color: black;
   padding: 6px;
   border-radius: 10px;
 }
 
-a:hover {
+.parent a:hover {
   background-color: rgb(92, 38, 238);
   color: white;
 }
 
 .design {
-  background-size: 500px;
+  /* background-size: 500px; */
   display: grid;
   width: 50%;
   grid-template-rows: 1fr 3fr 3fr;
   padding: 50px;
-  margin-top: 8%;
+  /* margin-top: 8%; */
   min-height: 100vh;
 
 }
@@ -102,12 +108,14 @@ a:hover {
   color: white
 }
 
+
 .sports {
   background-color: rgba(216, 210, 210, 0.753);
   min-height: 100vh;
   min-width: 100vh;
-  width: 100%;
-  display: grid;
+padding-top: 55px;
+  /* width: 100%; */
+  /* display: flex; */
   grid-template-rows: 20% 80%;
 }
 
@@ -115,14 +123,18 @@ a:hover {
   min-height: 92vh;
 }
 
-.teams {
-  background-color: red;
+.rules {
+  background-color: rgb(251, 241, 241);
   min-height: 100vh;
+  padding-top: 55px;
+  /* display: flex; */
 }
 
 .leagues {
-  background-color: greenyellow;
+  /* background-color: greenyellow; */
   min-height: 100vh;
+  padding-top: 55px;
+  /* display: flex; */
 }
 
 .sportcards {
@@ -219,12 +231,6 @@ a:hover {
   transform: rotateY(180deg);
 }
 
-.soccer-card-front {
-  /* background-color: #bbb; */
-  /* height: 300px; */
-  /* width: 300px; */
-}
-
 .tennis {
   grid-area: tennis;
 }
@@ -265,11 +271,7 @@ a:hover {
   transform: rotateY(180deg);
 }
 
-.tennis-card-front {
-  /* background-color: #bbb; */
-  /* width: 300px; */
-  /* height: 300px; */
-}
+ 
 
 .swimming {
   grid-area: swimming;
@@ -327,3 +329,11 @@ height: 100%;}
 .swimming-card-front img {position: relative;
 width: 100%;
 height: 100%;} 
+
+/* .sports-rules {text-decoration: underline;} */
+/* #sports-rules {text-align: left;} */
+.list {display: list-item;}
+.rules {display: grid;}
+.leagues a {text-decoration: none;
+color: blue;}
+
