@@ -5,7 +5,7 @@ body {
   background-position: 90% -0.4%;
   min-height: 100vh;
   margin: 0%;
-  
+
 
 }
 
@@ -21,13 +21,15 @@ body {
   background-color: rgb(156, 124, 230);
   align-items: center;
   padding: 0%;
-z-index: 1;
+  z-index: 1;
 
 }
 
-.main {min-height: 100vh;
-  padding-top:55px ;
+.main {
+  min-height: 100vh;
+  padding-top: 55px;
 }
+
 .logo img {
   width: 8%;
   height: 8%;
@@ -113,7 +115,7 @@ z-index: 1;
   background-color: rgba(216, 210, 210, 0.753);
   min-height: 100vh;
   min-width: 100vh;
-padding-top: 55px;
+  padding-top: 55px;
   /* width: 100%; */
   /* display: flex; */
   grid-template-rows: 20% 80%;
@@ -129,6 +131,23 @@ padding-top: 55px;
   padding-top: 55px;
   /* display: flex; */
 }
+
+.basketball-parent {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+.soccer-parent {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+.tennis-parent {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+.swimming-parent { display: grid;
+  grid-template-columns: 30% 70%;}
 
 .leagues {
   /* background-color: greenyellow; */
@@ -271,11 +290,11 @@ padding-top: 55px;
   transform: rotateY(180deg);
 }
 
- 
+
 
 .swimming {
   grid-area: swimming;
-  
+
 }
 
 .swimming-card {
@@ -294,6 +313,7 @@ padding-top: 55px;
   transform-style: preserve-3d;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
+
 .swimming-card:hover .swimming-card-inner {
   transform: rotateY(180deg);
 }
@@ -312,28 +332,49 @@ padding-top: 55px;
   color: black;
   transform: rotateY(180deg);
 }
-.swimming-card-front{background-color: #bbb;
-height: 300px;
-width: 300px;}
-.sportss {text-align: center;
 
-text-decoration: underline;
+.swimming-card-front {
+  background-color: #bbb;
+  height: 300px;
+  width: 300px;
 }
-.tennis-card-front img {position: relative;
-width: 100%;
-height: 100%;
-;}
-.soccer-card-front img {position: relative;
-width: 100%;
-height: 100%;}
-.swimming-card-front img {position: relative;
-width: 100%;
-height: 100%;} 
+
+.sportss {
+  text-align: center;
+
+  text-decoration: underline;
+}
+
+.tennis-card-front img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  ;
+}
+
+.soccer-card-front img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.swimming-card-front img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
 
 /* .sports-rules {text-decoration: underline;} */
 /* #sports-rules {text-align: left;} */
-.list {display: list-item;}
-.rules {display: grid;}
-.leagues a {text-decoration: none;
-color: blue;}
+.list {
+  display: list-item;
+}
 
+.rules {
+  display: grid;
+}
+
+.leagues a {
+  text-decoration: none;
+  color: blue;
+}
