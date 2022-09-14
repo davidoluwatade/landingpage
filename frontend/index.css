@@ -4,7 +4,7 @@ body {
   background-size: 50%;
   background-position: 90% -0.4%;
   min-height: 100vh;
-  margin: 0%;
+  margin:2%;
 
 
 }
@@ -137,17 +137,26 @@ body {
   grid-template-columns: 30% 70%;
 }
 
+.basketball-parent img {
+  display: none;
+  grid-template-columns: 30% 70%;
+}
+
 .soccer-parent {
   display: grid;
   grid-template-columns: 30% 70%;
 }
-
+.soccer-parent img {display: none;}
 .tennis-parent {
   display: grid;
   grid-template-columns: 30% 70%;
 }
-.swimming-parent { display: grid;
-  grid-template-columns: 30% 70%;}
+.tennis-parent img {display: none;}
+.swimming-parent {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+.swimming-parent img {display: none;}
 
 .leagues {
   /* background-color: greenyellow; */
