@@ -32,3 +32,11 @@ h1 {
 }
 /* .label {margin-right: 10%;} */
 .center {text-align: center;}
+button {border-radius: 20px ;
+border-color: transparent;
+box-shadow: none;
+}
+button:hover {
+    border-color: black;
+    border-width: 0.5px;
+}
